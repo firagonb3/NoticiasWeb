@@ -1,0 +1,61 @@
+
+.m64 {
+    background-image: url("../imagenes/img/m64.jpg");
+    background-size: 100vw;
+    background-position: 0;
+}
+
+.digimob {
+    background-image: url("../imagenes/img/digimon.jpg");
+}
+
+@media only screen and (max-width: 700px) {
+    .digimob {
+        background-image: url("../imagenes/img/digimon-mb.jpg");
+    }
+}
+
+.mc {
+    width: 98%; 
+    height: 80%; 
+    position: absolute;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 1%;
+    padding-bottom: 2%;
+}
+
+.mc-border {
+    background-color: rgb(0 0 0 / 80%);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 100% black;
+}
+
+
+.mc-copy {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0px;
+    padding-bottom: 3px;
+
+}
+
+.mc-text {
+    color: white; 
+    margin-bottom: 0px;
+    padding-top: 3px;
+    text-align:center
+}
+
+.toast-header {
+    background-color: rgb(52 52 52);
+    color: #ffffff;
+}
+
+.toast {
+    background-color: rgb(64 64 64 / 85%);
+    color: #ffffff;
+}
