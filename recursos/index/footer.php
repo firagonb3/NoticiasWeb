@@ -16,7 +16,7 @@
           <a href='" . $uri . "/feeds'><img class='d-inline-block align-text-top' src='" . $uri . "/recursos/imagenes/svg/feed-logo.svg' alt='' width='30' height='25'/></a>
         </li>
         <li class='ms-3'>
-          <a href='https://github.com/firagonb3/Noticias_feed_web'><img class='d-inline-block align-text-top' src='" . $uri . "/recursos/imagenes/svg/github-logo.svg' alt='' width='30' height='25'/></a>
+          <a href='https://github.com/firagonb3/NoticiasWeb'><img class='d-inline-block align-text-top' src='" . $uri . "/recursos/imagenes/svg/github-logo.svg' alt='' width='30' height='25'/></a>
         </li>
       ";
     ?>
