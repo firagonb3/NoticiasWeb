@@ -3,10 +3,7 @@ ErrorDocument 404 http://%{HTTP_HOST}
 ErrorDocument 403 http://%{HTTP_HOST}
 
 RewriteEngine on
-RewriteCond %{HTTP_HOST} ^mc.firagon.tk$
-RewriteRule ^(.*)$ https://firagon.tk/mc/download [QSA,L,R=301]
-RewriteCond %{HTTP_HOST} ^m64.firagon.tk$ 
-RewriteRule ^(.*)$ https://firagon.tk/m64/download [QSA,L,R=301]
+RewriteCond %{HTTP_HOST} ^(YOUR_DOMAINN)$
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
